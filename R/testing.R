@@ -1,16 +1,16 @@
 ###############################################################################################
 #' @author brian devoe
 
-library(usethis)
-
-# Set your commit message
-commit_message <- "Your commit message here"
-
-# Stage all changes
-use_git_commit(commit_message = commit_message)
-
-# Push to the remote repository
-use_git_push()
+# library(usethis)
+#
+# # Set your commit message
+# commit_message <- "Your commit message here"
+#
+# # Stage all changes
+# use_git_commit(commit_message = commit_message)
+#
+# # Push to the remote repository
+# use_git_push()
 
 ###############################################################################################
 
@@ -32,7 +32,7 @@ commit_message <- "Your commit message here"
 commit(repo, commit_message)
 
 # Push to the remote repository
-cred <- cred_user_pass("briandevoe", "Gauss2024$")
+cred <- cred_user_pass("bdevoe@brandeis.edu", "Gauss2024$")
 push(repo, credentials = cred)
 
 
