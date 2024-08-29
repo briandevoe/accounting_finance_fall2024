@@ -1,6 +1,6 @@
 # testing git function
 
-asdf
+library(ddkdevtools)
 
 git_token <- Sys.getenv("git_token")
 git_username <- Sys.getenv("git_username")
