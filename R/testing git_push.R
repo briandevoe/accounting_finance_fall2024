@@ -12,9 +12,10 @@ getwd()
 #          git_username = git_username,
 #          git_token = git_token)
 
+# git_push(commit_message = "bd",
+#          repo_path = "C:/Users/bdevoe/Desktop/Fall 2024/Accounting & Finance/accounting_finance_fall2024",
+#          git_username = Sys.getenv("git_username"),
+#          git_token = Sys.getenv("git_token"))
 
+git_push(commit_message = "bd")
 
-git_push(commit_message = "bd",
-         repo_path = "C:/Users/bdevoe/Desktop/Fall 2024/Accounting & Finance/accounting_finance_fall2024",
-         git_username = Sys.getenv("git_username"),
-         git_token = Sys.getenv("git_token"))
